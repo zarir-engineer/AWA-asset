@@ -45,8 +45,10 @@ const navItems = [
 
 export default function Navbar() {
   const [activeMenu, setActiveMenu] = useState(null);
+  // eslint-disable-next-line no-unused-vars
   const [menuHovered, setMenuHovered] = useState(false);
   const navRef = useRef(null);
+  // eslint-disable-next-line no-unused-vars
   const navigate = useNavigate();
 
   useEffect(() => {
