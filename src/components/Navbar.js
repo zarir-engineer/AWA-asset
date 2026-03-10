@@ -142,6 +142,9 @@ export default function Navbar() {
             }}>
               AWA <span style={{ color: '#c8973a' }}>ASSET</span>
             </span>
+            <p style={{ color: '#6b7280', fontSize: 13 }}>
+              Built on Principles.
+            </p>            
           </Link>
 
           {/* Desktop nav */}
