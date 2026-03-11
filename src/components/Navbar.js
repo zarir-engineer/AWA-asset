@@ -137,7 +137,7 @@ export default function Navbar() {
             </div>
 
             {/* Text Wrapper: This div stacks the Title and Tagline vertically */}
-            <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
+            <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
               <span style={{
                 fontFamily: 'Playfair Display, serif',
                 fontSize: isMobile ? 17 : 21,
@@ -153,7 +153,7 @@ export default function Navbar() {
                 fontSize: isMobile ? 10 : 12, // Slightly smaller on mobile to prevent spill
                 margin: 0,                   // Removes default paragraph spacing
                 fontWeight: 500,
-                fontStyle: 'italic'
+                fontStyle: 'underline'
               }}>
                 Built on Principles.
               </p>
